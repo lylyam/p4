@@ -1,0 +1,53 @@
+/*TIPOS*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Plaster&display=swap');
+/*GENERAL*/
+        *{padding: 0;
+        margin: 0;}
+        a{text-decoration: none;}
+        body{overflow: hidden;}
+        main h1{font-family: 'Plaster', cursive;}
+        header, nav, h2, footer{font-family: 'Noto Sans', sans-serif;}
+        header, main, nav, footer{padding: 0 17vw;}
+/*HEADER*/
+        header{background-color: white;
+            color: #591E1E;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;} 
+        header p {font-weight: 400;
+            font-size: 1.5em;}
+/*NAV*/
+        nav {background-color: #F2780C;
+            height: 20vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            padding: 0em 35em 0 35em;}
+        nav a img{width: 100%;
+            height: auto;}
+        nav a{font-weight: 700;
+            color: #591E1E;
+            font-size: 1.5em;
+            padding-bottom: 2em;}
+/*MAIN*/
+        main{background-color: #591E1E;
+            height: 55vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 0 1em 0;}
+/*FOOTER*/
+        footer{background-color: black;
+            height: 10vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 1.2em 0 0 0;}
+        footer address{font-weight: 700;
+            font-style: normal;
+            color: #FFFFFF;}
+        footer a{font-weight: 700;
+            font-style: normal;
+            color: #FFFFFF;}   
